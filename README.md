@@ -27,6 +27,10 @@ Approximately 72,458 roles will need to be filled as a result of the retirements
 
 ### Mentorship Volumes
 There are significantly less staff eligible to mentor new employees than there are job openings created by the "Silver Tsunami." 
+- There are 1,549 total eligible mentors.
+
+![](/Resources/total_mentors.png)
+
 - With 569 mentorship eligible Senior Staff, each eligible mentor would need to mentor ~ 40 new staff members in that role (based on 24,926 retiring Senior Staff).
 - With 501 mentorship eligible Engineers, each eligible mentor would need to mentor ~18 new staff members in that role (based on 9,285 retiring Engineers).
 - With 169 mentorship eligible Senior Engineers, each eligible mentor would need to mentor ~ 153 new staff members in that role (based on 25,916 retiring Senior Engineers).
