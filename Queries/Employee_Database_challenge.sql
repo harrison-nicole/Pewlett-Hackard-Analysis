@@ -39,6 +39,8 @@ FROM unique_titles
 GROUP BY title
 ORDER BY count desc
 
+SELECT * FROM retiring_titles
+
 --Deliverable 2
 --Retrieve emp_no, first_name, last_name and birth_date columns from the employees table
 SELECT emp_no, first_name, last_name, birth_date
@@ -71,3 +73,12 @@ WHERE (e.birth_date between '1965-01-01' and '1965-12-31'
 ORDER BY e.emp_no
 
 SELECT * FROM mentorship_eligibility
+
+--Additional deliverable for written analysis
+SELECT COUNT(title), title
+INTO mentorship_titles
+FROM mentorship_eligibility
+GROUP BY title
+ORDER BY COUNT(title) DESC;
+
+SELECT * FROM mentorship_titles
